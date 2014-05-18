@@ -15,7 +15,7 @@ Other files included in the repository are this README file along with a codeboo
 The main purpose of this README file is to outline the contents and describe how the ***run_analysis.R*** performs.
 
 ## Script description
-The script has the following flow:
+The script is consisted of one function which runs and executes the data processing as long as your current folder contains either the raw zip file as downloaded from the website without name alterations or it contains the extracted folder again with no name alterations. The function has the following order of execution:
 
 * Check if the zip file or the default extraction folder are present in the current working directory. The check is done in order to fetch and unzip the data if it is not yet present. 
 
